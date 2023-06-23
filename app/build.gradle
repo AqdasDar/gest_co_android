@@ -35,6 +35,11 @@ android {
 dependencies {
     def room_version = "2.5.0"
     def nav_version = "2.5.3"
+    def retrofit_version = "2.9.0"
+
+    // retrofit
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
 
     // Java language implementation
     implementation "androidx.navigation:navigation-fragment:$nav_version"
@@ -47,4 +52,6 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+
 }
